@@ -26,9 +26,13 @@ based on [Ark-Lite-Wallet](https://github.com/ArkEcosystem/ark-lite-wallet) || [
 ## Suggested Resources
 
 [Ark.io](https://ark.io) 
-[Github](https://www.github.com/ArkEcosystem)
-[Slack](https://ark.io/join-ark-slack)
-[Reddit](https://www.reddit.com/r/arkecosystem)
+
+[Github](https://www.github.com/ArkEcosystem) 
+
+[Slack](https://ark.io/join-ark-slack) 
+
+[Reddit](https://www.reddit.com/r/arkecosystem) 
+
 [Twitter](https://www.twitter.com/arkecosystem)
 
 ## About
