@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F424AB521F0DE274008CFD0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424AB511F0DE274008CFD0D /* AppDelegate.swift */; };
+		F424AB541F0DE274008CFD0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424AB531F0DE274008CFD0D /* ViewController.swift */; };
+		F424AB571F0DE274008CFD0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424AB551F0DE274008CFD0D /* Main.storyboard */; };
+		F424AB5C1F0DE274008CFD0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424AB5A1F0DE274008CFD0D /* LaunchScreen.storyboard */; };
+		F424AB671F0DE275008CFD0D /* ArkWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424AB661F0DE275008CFD0D /* ArkWalletTests.swift */; };
+		F424AB721F0DE275008CFD0D /* ArkWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F424AB711F0DE275008CFD0D /* ArkWalletUITests.swift */; };
+		F424AB801F0DE469008CFD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424AB7F1F0DE469008CFD0D /* Assets.xcassets */; };
+		F424AB811F0DE469008CFD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424AB7F1F0DE469008CFD0D /* Assets.xcassets */; };
+		F424AB821F0DE469008CFD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424AB7F1F0DE469008CFD0D /* Assets.xcassets */; };
+		F424AB901F0DE804008CFD0D /* ARKKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F424AB8F1F0DE804008CFD0D /* ARKKit.framework */; };
+		F424AB911F0DE804008CFD0D /* ARKKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F424AB8F1F0DE804008CFD0D /* ARKKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F424AB631F0DE275008CFD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F424AB461F0DE274008CFD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F424AB4D1F0DE274008CFD0D;
+			remoteInfo = ArkWallet;
+		};
+		F424AB6E1F0DE275008CFD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F424AB461F0DE274008CFD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F424AB4D1F0DE274008CFD0D;
+			remoteInfo = ArkWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F424AB921F0DE805008CFD0D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F424AB911F0DE804008CFD0D /* ARKKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F424AB4E1F0DE274008CFD0D /* ArkWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424AB511F0DE274008CFD0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F424AB531F0DE274008CFD0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F424AB561F0DE274008CFD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F424AB5B1F0DE274008CFD0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F424AB5D1F0DE274008CFD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424AB621F0DE275008CFD0D /* ArkWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424AB661F0DE275008CFD0D /* ArkWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkWalletTests.swift; sourceTree = "<group>"; };
+		F424AB681F0DE275008CFD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424AB6D1F0DE275008CFD0D /* ArkWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424AB711F0DE275008CFD0D /* ArkWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkWalletUITests.swift; sourceTree = "<group>"; };
+		F424AB731F0DE275008CFD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424AB7F1F0DE469008CFD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F424AB8F1F0DE804008CFD0D /* ARKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ARKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F424AB4B1F0DE274008CFD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB901F0DE804008CFD0D /* ARKKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB5F1F0DE275008CFD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB6A1F0DE275008CFD0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F424AB451F0DE274008CFD0D = {
+			isa = PBXGroup;
+			children = (
+				F424AB501F0DE274008CFD0D /* ArkWallet */,
+				F424AB651F0DE275008CFD0D /* ArkWalletTests */,
+				F424AB701F0DE275008CFD0D /* ArkWalletUITests */,
+				F424AB931F0DE80F008CFD0D /* Frameworks */,
+				F424AB4F1F0DE274008CFD0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F424AB4F1F0DE274008CFD0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F424AB4E1F0DE274008CFD0D /* ArkWallet.app */,
+				F424AB621F0DE275008CFD0D /* ArkWalletTests.xctest */,
+				F424AB6D1F0DE275008CFD0D /* ArkWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F424AB501F0DE274008CFD0D /* ArkWallet */ = {
+			isa = PBXGroup;
+			children = (
+				F424AB511F0DE274008CFD0D /* AppDelegate.swift */,
+				F424AB531F0DE274008CFD0D /* ViewController.swift */,
+				F424AB551F0DE274008CFD0D /* Main.storyboard */,
+				F424AB7F1F0DE469008CFD0D /* Assets.xcassets */,
+				F424AB5A1F0DE274008CFD0D /* LaunchScreen.storyboard */,
+				F424AB5D1F0DE274008CFD0D /* Info.plist */,
+			);
+			path = ArkWallet;
+			sourceTree = "<group>";
+		};
+		F424AB651F0DE275008CFD0D /* ArkWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				F424AB661F0DE275008CFD0D /* ArkWalletTests.swift */,
+				F424AB681F0DE275008CFD0D /* Info.plist */,
+			);
+			path = ArkWalletTests;
+			sourceTree = "<group>";
+		};
+		F424AB701F0DE275008CFD0D /* ArkWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F424AB711F0DE275008CFD0D /* ArkWalletUITests.swift */,
+				F424AB731F0DE275008CFD0D /* Info.plist */,
+			);
+			path = ArkWalletUITests;
+			sourceTree = "<group>";
+		};
+		F424AB931F0DE80F008CFD0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F424AB8F1F0DE804008CFD0D /* ARKKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F424AB4D1F0DE274008CFD0D /* ArkWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424AB761F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWallet" */;
+			buildPhases = (
+				F424AB4A1F0DE274008CFD0D /* Sources */,
+				F424AB4B1F0DE274008CFD0D /* Frameworks */,
+				F424AB4C1F0DE274008CFD0D /* Resources */,
+				F424AB921F0DE805008CFD0D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkWallet;
+			productName = ArkWallet;
+			productReference = F424AB4E1F0DE274008CFD0D /* ArkWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F424AB611F0DE275008CFD0D /* ArkWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424AB791F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWalletTests" */;
+			buildPhases = (
+				F424AB5E1F0DE275008CFD0D /* Sources */,
+				F424AB5F1F0DE275008CFD0D /* Frameworks */,
+				F424AB601F0DE275008CFD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F424AB641F0DE275008CFD0D /* PBXTargetDependency */,
+			);
+			name = ArkWalletTests;
+			productName = ArkWalletTests;
+			productReference = F424AB621F0DE275008CFD0D /* ArkWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F424AB6C1F0DE275008CFD0D /* ArkWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424AB7C1F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWalletUITests" */;
+			buildPhases = (
+				F424AB691F0DE275008CFD0D /* Sources */,
+				F424AB6A1F0DE275008CFD0D /* Frameworks */,
+				F424AB6B1F0DE275008CFD0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F424AB6F1F0DE275008CFD0D /* PBXTargetDependency */,
+			);
+			name = ArkWalletUITests;
+			productName = ArkWalletUITests;
+			productReference = F424AB6D1F0DE275008CFD0D /* ArkWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F424AB461F0DE274008CFD0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sleepdefic1t;
+				TargetAttributes = {
+					F424AB4D1F0DE274008CFD0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2V2LNF9X;
+						ProvisioningStyle = Automatic;
+					};
+					F424AB611F0DE275008CFD0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2V2LNF9X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F424AB4D1F0DE274008CFD0D;
+					};
+					F424AB6C1F0DE275008CFD0D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PX2V2LNF9X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F424AB4D1F0DE274008CFD0D;
+					};
+				};
+			};
+			buildConfigurationList = F424AB491F0DE274008CFD0D /* Build configuration list for PBXProject "ArkWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F424AB451F0DE274008CFD0D;
+			productRefGroup = F424AB4F1F0DE274008CFD0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F424AB4D1F0DE274008CFD0D /* ArkWallet */,
+				F424AB611F0DE275008CFD0D /* ArkWalletTests */,
+				F424AB6C1F0DE275008CFD0D /* ArkWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F424AB4C1F0DE274008CFD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB5C1F0DE274008CFD0D /* LaunchScreen.storyboard in Resources */,
+				F424AB801F0DE469008CFD0D /* Assets.xcassets in Resources */,
+				F424AB571F0DE274008CFD0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB601F0DE275008CFD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB811F0DE469008CFD0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB6B1F0DE275008CFD0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB821F0DE469008CFD0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F424AB4A1F0DE274008CFD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB541F0DE274008CFD0D /* ViewController.swift in Sources */,
+				F424AB521F0DE274008CFD0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB5E1F0DE275008CFD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB671F0DE275008CFD0D /* ArkWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424AB691F0DE275008CFD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424AB721F0DE275008CFD0D /* ArkWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F424AB641F0DE275008CFD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F424AB4D1F0DE274008CFD0D /* ArkWallet */;
+			targetProxy = F424AB631F0DE275008CFD0D /* PBXContainerItemProxy */;
+		};
+		F424AB6F1F0DE275008CFD0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F424AB4D1F0DE274008CFD0D /* ArkWallet */;
+			targetProxy = F424AB6E1F0DE275008CFD0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F424AB551F0DE274008CFD0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F424AB561F0DE274008CFD0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F424AB5A1F0DE274008CFD0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F424AB5B1F0DE274008CFD0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F424AB741F0DE275008CFD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F424AB751F0DE275008CFD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F424AB771F0DE275008CFD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F424AB781F0DE275008CFD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F424AB7A1F0DE275008CFD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArkWallet.app/ArkWallet";
+			};
+			name = Debug;
+		};
+		F424AB7B1F0DE275008CFD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArkWallet.app/ArkWallet";
+			};
+			name = Release;
+		};
+		F424AB7D1F0DE275008CFD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArkWallet;
+			};
+			name = Debug;
+		};
+		F424AB7E1F0DE275008CFD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = ArkWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepdeficit.ArkWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ArkWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F424AB491F0DE274008CFD0D /* Build configuration list for PBXProject "ArkWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424AB741F0DE275008CFD0D /* Debug */,
+				F424AB751F0DE275008CFD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F424AB761F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424AB771F0DE275008CFD0D /* Debug */,
+				F424AB781F0DE275008CFD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F424AB791F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424AB7A1F0DE275008CFD0D /* Debug */,
+				F424AB7B1F0DE275008CFD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F424AB7C1F0DE275008CFD0D /* Build configuration list for PBXNativeTarget "ArkWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424AB7D1F0DE275008CFD0D /* Debug */,
+				F424AB7E1F0DE275008CFD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F424AB461F0DE274008CFD0D /* Project object */;
+}

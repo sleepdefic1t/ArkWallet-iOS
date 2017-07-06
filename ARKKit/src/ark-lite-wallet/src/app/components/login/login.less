@@ -1,0 +1,41 @@
+
+login {
+
+  input {
+    text-transform: lowercase;
+    text-overflow: inherit;
+    overflow: visible;
+  }
+
+  .move {
+    text-align: center;
+  }
+
+  .login {
+      min-width: 400px;
+  }
+
+  .random-input {
+    margin: 0 0 55px 0;
+  }
+
+  .byte {
+    display: inline-block;
+    text-align: center;
+    font-size: 40%;
+    margin: 5px;
+    font-family: monospace;
+
+    &.change-add, &.change-remove {
+      transition: all .15s ease;
+    }
+
+    &.change, &.change-add-active, &.change-remove {
+      transform: scale(1.3);
+    }
+
+    &.change-remove-active {
+      transform: none;
+    }
+  }
+}
